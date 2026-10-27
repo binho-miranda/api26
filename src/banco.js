@@ -1,10 +1,10 @@
 import mysql2 from 'mysql2';
 
 const conexao = mysql2.createConnection({
-    host : 'localhost',
-    user: 'root',
-    password: 'Senac@123',
-    database: 'api26'
+    host : '192.185.215.58',
+    user: 'kuart612_tecbin',
+    password: 'senacpenha',
+    database: 'kuart612_tec-teste'
 });
 
 // conexao.connect();

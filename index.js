@@ -14,7 +14,8 @@ app.use(cors());
 
 // rota para página/mensaagem inicial
 app.get('/', (req, res) => {
-    res.send(`API de alunos com Node.JS, Express e MySQL`);
+    // res.send(`API de alunos com Node.JS, Express e MySQL`);
+    res.redirect("https://larina4223-2382742.postman.co/workspace/Ze's-Workspace~d1cc20a0-c0e8-47b7-88e8-b25879f5c72e/documentation/59152994-a9a335a4-a7c8-4d53-877a-068df32bfd02");
 });
 
 
