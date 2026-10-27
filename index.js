@@ -1,12 +1,14 @@
 import express from "express";
+import cors from "cors";
 import { ler, inserir } from './src/aluno.js';
 const app = express();
-const porta = 3000;
+const porta = process.env.PORT || 3000;
 
 
 
 app.use(express.json());
 app.use( express.urlencoded({extended:true}) );
+app.use(cors());
 
 // configurando Rotas
 
